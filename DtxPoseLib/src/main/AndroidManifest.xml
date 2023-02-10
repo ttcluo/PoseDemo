@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.llnao.dtx.motion">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application>
+        <activity
+            android:name=".game.activity.GameActivityTest"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game.activity.GameActivityPoseDrums"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".game.activity.GameActivityHandsGuess"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".game.activity.GameActivity"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"
+            android:theme="@style/FullScreenTranslucent" />
+        <activity
+            android:name=".game.activity.GameActivityOld"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.activity.GameActivityStander"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".game.activity.GameActivityLeisure"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.activity.GameActivityHandsDigital"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.activity.GameActivityHandsAnimals"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.activity.GameActivityPoseSit"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.activity.GameActivityPoseDigital"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"/>
+        <activity android:name=".game.spine.SpineViewActivity"
+            android:screenOrientation="landscape"/>
+    </application>
+</manifest>

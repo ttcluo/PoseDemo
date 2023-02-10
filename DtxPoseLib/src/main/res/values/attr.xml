@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <attr name="startAngle" format="dimension" />
+        <attr name="swipeAngle" format="dimension" />
+        <attr name="splitAngle" format="dimension" />
+    </declare-styleable>
+</resources>

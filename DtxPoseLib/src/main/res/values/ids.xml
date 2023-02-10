@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_login" type="id" />
+    <item name="loading_view_id" type="id"/>
+    <item name="loading_progress_id" type="id"/>
+</resources>
